@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
+html {
   --white: #ffffff;
 
   --gray-100: #f1f2fa;
@@ -29,6 +29,17 @@
 
 body {
   background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 700;
 }
 
 body,
@@ -41,6 +52,10 @@ button {
 
 button {
   cursor: pointer;
+}
+
+li {
+  list-style: none;
 }
 
 a {
