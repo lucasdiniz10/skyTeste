@@ -30,6 +30,13 @@
       rel="stylesheet"
       href="./node_modules/@fortawesome/fontawesome-free/css/all.css"
     />
+
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/slick-carousel/slick/slick-theme.css"
+    />
+
     <title>Sky | Home</title>
   </head>
 
@@ -126,8 +133,26 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="banner-carousel">
+        <img src="src/img/banner/homem-aranha.jpg" alt="Homem Aranha" />
+        <img src="src/img/banner/aladdin.jpg" alt="Aladdin" />
+        <img
+          src="src/img/banner/homens-de-preto.jpg"
+          alt="MIB Homens de Preto"
+        />
+        <img src="src/img/banner/liga-da-justica.jpg" alt="Liga da Justiça" />
+        <img src="src/img/banner/captain-marvel.jpg" alt="Capitã Marvel" />
+        <img src="src/img/banner/captao-america.jpg" alt="Capitão América" />
+      </section>
+      <section class="catalog-container">
+        <div class="catalog-content">
+          <h5>Recomendados pela Sky</h5>
+        </div>
+      </section>
+    </main>
     <footer></footer>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
       integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
@@ -138,6 +163,8 @@
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
       crossorigin="anonymous"
     ></script>
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="/dist/banner-carousel.js"></script>
     <script src="/dist/script.js"></script>
   </body>
 </html>

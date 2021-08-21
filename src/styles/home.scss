@@ -117,3 +117,20 @@
     }
   }
 }
+
+/* main */
+main {
+  padding: 2rem 0;
+
+  .banner-carousel {
+    display: flex;
+
+    .slick-slide {
+      margin: 1rem;
+    }
+
+    .slick-center {
+      transform: scale(1.2);
+    }
+  }
+}
