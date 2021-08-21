@@ -3,3 +3,24 @@
     width: 5.5rem;
   }
 }
+
+.modal {
+  max-width: 270px;
+
+  .modal-content {
+    max-width: 270px;
+
+    .list-group-item {
+      border: none;
+      transition: 0.2s;
+
+      &:hover {
+        filter: brightness(0.95);
+      }
+
+      &:active {
+        color: var(--red);
+      }
+    }
+  }
+}
