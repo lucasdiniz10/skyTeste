@@ -135,19 +135,96 @@
     </header>
     <main>
       <section class="banner-carousel">
-        <img src="src/img/banner/homem-aranha.jpg" alt="Homem Aranha" />
-        <img src="src/img/banner/aladdin.jpg" alt="Aladdin" />
-        <img
-          src="src/img/banner/homens-de-preto.jpg"
-          alt="MIB Homens de Preto"
-        />
-        <img src="src/img/banner/liga-da-justica.jpg" alt="Liga da Justiça" />
-        <img src="src/img/banner/captain-marvel.jpg" alt="Capitã Marvel" />
-        <img src="src/img/banner/captao-america.jpg" alt="Capitão América" />
+        <div class="images">
+          <img src="src/img/banner/homem-aranha.jpg" alt="Homem Aranha" />
+          <img src="src/img/banner/aladdin.jpg" alt="Aladdin" />
+          <img
+            src="src/img/banner/homens-de-preto.jpg"
+            alt="MIB Homens de Preto"
+          />
+          <img src="src/img/banner/liga-da-justica.jpg" alt="Liga da Justiça" />
+          <img src="src/img/banner/captain-marvel.jpg" alt="Capitã Marvel" />
+          <img src="src/img/banner/captao-america.jpg" alt="Capitão América" />
+        </div>
+        <!-- sliders -->
+        <div class="sliders">
+          <div id="arrow-prev">
+            <em class="fas fa-chevron-circle-left"></em>
+          </div>
+          <div id="arrow-next">
+            <em class="fas fa-chevron-circle-right"></em>
+          </div>
+        </div>
       </section>
+
       <section class="catalog-container">
         <div class="catalog-content">
-          <h5>Recomendados pela Sky</h5>
+          <h5 id="section-catalog-title">Recomendados pela Sky</h5>
+          <div class="movies-list">
+            <div class="movie">
+              <button type="button">
+                <i class="fas fa-lock"></i>
+              </button>
+              <img
+                src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWFmZTNmY2ZjYzEyNjZjODQ0OTBkOWRh_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614969566033"
+                alt=""
+              />
+            </div>
+            <div class="movie">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <img
+                src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWFmZTNmY2ZjYzEyNjZjODQ0OTBkOWRh_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614969566033"
+                alt=""
+              />
+            </div>
+            <div class="movie">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <img
+                src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWFmZTNmY2ZjYzEyNjZjODQ0OTBkOWRh_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614969566033"
+                alt=""
+              />
+            </div>
+            <div class="movie">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <img
+                src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWFmZTNmY2ZjYzEyNjZjODQ0OTBkOWRh_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614969566033"
+                alt=""
+              />
+            </div>
+            <div class="movie">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <img
+                src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWFmZTNmY2ZjYzEyNjZjODQ0OTBkOWRh_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614969566033"
+                alt=""
+              />
+            </div>
+            <div class="movie">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <img
+                src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWFmZTNmY2ZjYzEyNjZjODQ0OTBkOWRh_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614969566033"
+                alt=""
+              />
+            </div>
+            <div class="movie">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <img
+                src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWFmZTNmY2ZjYzEyNjZjODQ0OTBkOWRh_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614969566033"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -164,7 +241,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
-    <script src="/dist/banner-carousel.js"></script>
+    <script src="/dist/bannerCarousel.js"></script>
+    <script src="/dist/moviesCarousel.js"></script>
     <script src="/dist/script.js"></script>
   </body>
 </html>

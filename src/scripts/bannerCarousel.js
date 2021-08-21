@@ -1,8 +1,10 @@
-$('.banner-carousel').slick({
+$('.images').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 3,
   slidesToScroll: 1,
+  prevArrow: $('#arrow-prev'),
+  nextArrow: $('#arrow-next'),
   autoplay: true,
   autoplaySpeed: 5000,
   dots: true,

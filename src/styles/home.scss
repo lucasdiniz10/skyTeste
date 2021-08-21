@@ -123,14 +123,38 @@ main {
   padding: 2rem 0;
 
   .banner-carousel {
-    display: flex;
+    position: relative;
 
-    .slick-slide {
-      margin: 1rem;
+    .images {
+      display: flex;
+
+      .slick-slide {
+        margin: 1rem;
+      }
+
+      .slick-center {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .sliders {
+    opacity: 0.7;
+
+    #arrow-prev,
+    #arrow-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
     }
 
-    .slick-center {
-      transform: scale(1.2);
+    #arrow-prev {
+      left: 1rem;
+    }
+
+    #arrow-next {
+      right: 1rem;
     }
   }
 }
