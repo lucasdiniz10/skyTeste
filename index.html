@@ -17,7 +17,6 @@
       rel="stylesheet"
     />
 
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,6 +26,10 @@
 
     <link rel="stylesheet" href="dist/global.css" />
     <link rel="stylesheet" href="dist/home.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
     <title>Sky | Home</title>
   </head>
 
@@ -49,12 +52,12 @@
             </button>
           </div>
 
-          <ul class="nav justify-content-end">
+          <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Fimes</a>
+              <a class="nav-link active" href="#">Filmes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">séries</a>
+              <a class="nav-link" href="#">Séries</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Canais</a>
@@ -83,11 +86,30 @@
               </div>
               <div class="modal-body">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Entrar</li>
-                  <li class="list-group-item">A second item</li>
-                  <li class="list-group-item">A third item</li>
-                  <li class="list-group-item">A fourth item</li>
-                  <li class="list-group-item">And a fifth one</li>
+                  <li class="list-group-item">
+                    <a href="/">
+                      <i class="fas fa-user"></i>
+                      Entrar como assinante
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/">
+                      <i class="fas fa-play"></i>
+                      Play
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/">
+                      <i class="fas fa-universal-access"></i>
+                      Acessibilidade
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/">
+                      <i class="fas fa-adjust"></i>
+                      Modo Escuro
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div class="modal-footer">

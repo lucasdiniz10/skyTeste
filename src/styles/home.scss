@@ -1,6 +1,73 @@
 .header-container {
-  img {
-    width: 5.5rem;
+  .navbar {
+    padding: 0;
+    .container-fluid {
+      padding: 1rem;
+      background-color: var(--gray-bg);
+      border-bottom: 1px solid var(--gray-border-line);
+
+      .navbar-brand {
+        img {
+          width: 5.5rem;
+        }
+      }
+    }
+
+    ul {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      li {
+        width: 100%;
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+          width: 100%;
+          height: 4.5rem;
+          position: relative;
+          color: var(--gray-title);
+          line-height: 4.5rem;
+          font-weight: 700;
+
+          transition: 0.2s;
+
+          &:hover {
+            color: var(--red);
+          }
+
+          &.active {
+            color: var(--red);
+          }
+
+          &.active::after {
+            content: "";
+            height: 5px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: var(--red);
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
+
+    transition: 0.2s;
+
+    &:hover {
+      background: var(--gray-200);
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
   }
 }
 
@@ -10,16 +77,42 @@
   .modal-content {
     max-width: 270px;
 
+    .modal-body,
+    .list-group-item {
+      padding: 0;
+    }
+
     .list-group-item {
       border: none;
-      transition: 0.2s;
+      padding: 1rem 2rem;
 
-      &:hover {
-        filter: brightness(0.95);
+      &:first-child {
+        background-color: var(--gray-bg);
       }
 
-      &:active {
-        color: var(--red);
+      a {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        align-items: center;
+        padding: 0.5rem 0;
+        color: var(--gray-200);
+        width: 100%;
+        font-weight: 700;
+        text-align: left;
+
+        transition: 0.2s;
+
+        &:hover {
+          color: var(--red);
+        }
+
+        &:active {
+          color: var(--red);
+        }
+
+        i {
+          font-size: 1.4rem;
+        }
       }
     }
   }

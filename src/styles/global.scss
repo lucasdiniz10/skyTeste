@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 
-html {
+:root {
   --white: #ffffff;
 
-  --gray-100: #f1f2fa;
-  --gray-600: #606064;
+  --gray-bg: #f1f2fa;
+  --gray-border-line: #d5d5dc;
+  --gray-200: #9f9f9f;
+  --gray-title: #606064;
   --black: #202021;
 
   --red: #e30609;
-  --red-500: #db5350;
 }
 
 @media (max-width: 1080px) {
