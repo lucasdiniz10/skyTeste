@@ -13,7 +13,7 @@ $('.movies-list').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '0px',
-        slidesToShow: 5
+        slidesToShow: 3
       }
     },
     {
