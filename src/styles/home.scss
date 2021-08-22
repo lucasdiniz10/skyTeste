@@ -231,7 +231,8 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid var(--gray-border-line);
+    border-top: 1px solid var(--gray-border-line);
+    border-bottom: 1px solid var(--gray-border-line);
 
     img {
       width: 5.5rem;
