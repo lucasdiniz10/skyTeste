@@ -167,9 +167,11 @@ main {
     padding-left: 1rem;
 
     .catalog-content {
+      align-items: left;
       h5 {
         color: var(--black);
         margin-bottom: 1rem;
+        padding-left: 50px;
       }
 
       .movie {
@@ -213,7 +215,6 @@ main {
 }
 
 /* footer */
-
 .footer-container {
   background: var(--gray-bg);
 
