@@ -35,7 +35,16 @@ function sliderInit() {
 
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1024,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 5
+        }
+      },
+      {
+        breakpoint: 612,
         settings: {
           arrows: false,
           centerMode: true,
