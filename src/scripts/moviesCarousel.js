@@ -7,7 +7,7 @@ $.when(
   const series = response.filter(movie => movie.mediaType === "SERIE");
   console.log(movies, series);
 
-  $.each(movies, function (index, item) {
+  $.each(response, function (index, item) {
     $('.movies-list').prepend(`
     <div class="movie">
       <button type="button">
@@ -27,9 +27,11 @@ $.when(
 function sliderInit() {
   $('.movies-list').slick({
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 3,
-    centerMode: true,
+    slidesToShow: 7,
+    slidesToScroll: 2,
+    centerMode: false,
+    prevArrow: $('#ar-prev'),
+    nextArrow: $('#ar-next'),
 
     responsive: [
       {
