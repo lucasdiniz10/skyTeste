@@ -30,6 +30,7 @@ main {
       top: 50%;
       transform: translateY(-50%);
       font-size: 2rem;
+      cursor: pointer;
     }
 
     #arrow-prev {
@@ -85,7 +86,7 @@ main {
           width: 100%;
           height: 100%;
           border-radius: 5px;
-          max-height: 277.5px;
+          //max-height: 277.5px;
         }
       }
 
@@ -97,6 +98,7 @@ main {
           position: absolute;
           top: 50%;
           font-size: 2rem;
+          cursor: pointer;
         }
 
         #ar-prev {

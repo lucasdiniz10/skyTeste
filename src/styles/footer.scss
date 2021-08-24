@@ -75,6 +75,14 @@
     font-weight: 700;
     color: var(--gray-title);
 
+    .accordion-item {
+      background-color: var(--gray-200);
+    }
+
+    .accordion-button::after {
+      fill: var(--gray-title);
+    }
+
     .accordion-button,
     .accordion-body {
       padding: 1rem;
@@ -91,9 +99,9 @@
 
   .links-container {
     background: var(--white);
+    color: var(--gray-title);
 
     a {
-      color: var(--gray-title);
       line-height: 2.5rem;
       font-weight: 700;
 
@@ -127,6 +135,12 @@
     .infos-container {
       display: grid;
       grid-template-columns: 2fr repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .links-container {
+      text-align: center;
     }
   }
 }

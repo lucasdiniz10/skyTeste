@@ -16,6 +16,18 @@
   --red: #e30609;
 }
 
+.dark:root {
+  --white: #363636;
+
+  --gray-bg: #202021;
+  --gray-border-line: #29292b;
+  --gray-200: #9f9f9f;
+  --gray-title: #ffffff;
+  --black: #ffffff;
+
+  --red: #f74043;
+}
+
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
