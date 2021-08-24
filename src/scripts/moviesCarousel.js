@@ -3,9 +3,6 @@ $.when(
   $.ready
 ).done(function (data) {
   const response = data[0].contents;
-  const movies = response.filter(movie => movie.mediaType === "MOVIE");
-  const series = response.filter(movie => movie.mediaType === "SERIE");
-  console.log(movies, series);
 
   $.each(response, function (index, item) {
     $('.movies-list').prepend(`
