@@ -46,21 +46,73 @@
   <body>
     <header>
       <div class="header-container">
-        <nav class="navbar navbar-light bg-light shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="./src/img/sky-logo.svg" alt="Sky" />
             </a>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="fas fa-user"></i>
+                    Entrar como assinante
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-play"></i>
+                    Play
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-universal-access"></i>
+                    Acessibilidade
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-adjust"></i>
+                    Modo Escuro
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
+
+          <!-- <div class="modal-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href="/">
+                  <i class="fas fa-user"></i>
+                  Entrar como assinante
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="/">
+                  <i class="fas fa-play"></i>
+                  Play
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="/">
+                  <i class="fas fa-universal-access"></i>
+                  Acessibilidade
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="/">
+                  <i class="fas fa-adjust"></i>
+                  Modo Escuro
+                </a>
+              </li>
+            </ul>
+          </div> -->
+
 
           <ul class="nav">
             <li class="nav-item">
@@ -74,66 +126,6 @@
             </li>
           </ul>
         </nav>
-
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="exampleModal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"></h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <a href="/">
-                      <i class="fas fa-user"></i>
-                      Entrar como assinante
-                    </a>
-                  </li>
-                  <li class="list-group-item">
-                    <a href="/">
-                      <i class="fas fa-play"></i>
-                      Play
-                    </a>
-                  </li>
-                  <li class="list-group-item">
-                    <a href="/">
-                      <i class="fas fa-universal-access"></i>
-                      Acessibilidade
-                    </a>
-                  </li>
-                  <li class="list-group-item">
-                    <a href="/">
-                      <i class="fas fa-adjust"></i>
-                      Modo Escuro
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Fechar
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </header>
     <main>
